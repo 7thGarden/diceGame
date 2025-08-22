@@ -1,0 +1,28 @@
+#p2{
+    position: relative;
+    left: 24rem;
+    bottom: 323px;
+}
+#p1{
+    position: relative;
+    top: 5px;
+}
+.btn{
+    position: relative;
+    bottom: 16rem;
+    left: 16rem;
+}
+#img1{
+    width: 15rem;
+    height: 15rem;
+}
+#img2{
+    width: 15rem;
+    height: 15rem;
+}
+#win{
+    font-size: 3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    
+}

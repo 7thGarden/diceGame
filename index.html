@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Dice Game!</h1>
+    <p>Instructions:</p>
+    <P>1. Any player can roll the dice.</P>
+    <p>2. Points for both the players will be recorded and added individually.</p>
+    <p>3. The first player to get 30 points wins.</p>
+    <p id="win"></p>
+    <br>
+    <div id="p1">
+        <img id="img1" src="./img/goku.jpg" alt="">
+        <p>Player 1 score: <span id="p1score"></span></p>
+        <p>Player 1 total: <span id="tot1"></span></p>
+    </div>
+    <div id="p2">
+        <img id="img2" src="./img/goku.jpg" alt="">
+        <p>Player 2 score: <span id="p2score"></span></p>
+        <p>Player 2 total: <span id="tot2"></span></p>
+    </div>
+    <button class="btn" onclick="roll()">Roll</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
